@@ -1,19 +1,20 @@
 """One-line office joke entry for the make.fun bounty
 'Make the AI Judge Laugh: Office Jokes'.
 
-The joke:
+The joke (round 2 revision — a new angle, replacing the round-1
+trust-falls line):
 
-    Our team building exercise was trust falls. HR caught nobody,
-    but Legal caught everything on camera.
+    Our office went paperless, so now we print the email that says
+    please do not print this email.
 
-Why it lands: a trust fall is supposed to prove your colleagues will
-catch you, so HR catching nobody is the first failure of the exercise.
-The turn is Legal — the one department nobody wants involved — catching
-everything, but only on camera. The team gets neither the trust nor the
-safety the exercise promises; instead they get evidence. HR drops the
-ball and Legal keeps the footage, which is exactly how a corporate
-team-building day feels: nobody has your back, but somebody has it
-on record.
+Why it lands: going paperless is supposed to end printing, so the
+office proudly announcing it by email is already a small defeat.
+The turn is that the staff print that very announcement — the one
+email that begs not to be printed — to prove they read it. The
+policy and the behaviour cancel each other out in a single sheet of
+paper, which is exactly how corporate green initiatives feel: the
+printer is the one thing the office will never give up, not even
+for the memo about giving up the printer.
 
 Writes a single one-line joke about office life to /output/entry.txt.
 Deterministic: no network, no randomness, no environment reads.
@@ -21,7 +22,7 @@ Deterministic: no network, no randomness, no environment reads.
 
 import os
 
-JOKE = "Our team building exercise was trust falls. HR caught nobody, but Legal caught everything on camera."
+JOKE = "Our office went paperless, so now we print the email that says please do not print this email."
 
 
 def main() -> None:
